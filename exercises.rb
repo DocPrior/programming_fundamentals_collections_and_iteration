@@ -178,3 +178,9 @@ artist =  ["noisuf x",  "crystal Method", "juno reactor"]
 
 colour_artists = fav_colours.concat(artist)
 puts colour_artists.sort
+
+artist.each do |a|
+  people.each do |p|
+    puts "I <3 #{a} #{p}."
+  end
+end
