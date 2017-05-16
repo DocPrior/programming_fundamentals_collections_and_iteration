@@ -56,8 +56,7 @@ end
 
 
 #Exercise 3
-puts artist[0]
-puts artist[1]
+puts artist[0..1]
 
 fav_movies.each do |movie, year|
   puts "#{movie} came out in #{year}."
@@ -67,3 +66,19 @@ print people.sort.reverse!
 
 fav_movies["Beauty and the Beast"] = [1991, 2017]
 puts fav_movies
+
+#Exercise 4
+people_under_30 = people.select do |age|
+  age < 30
+end
+print people_under_30
+
+puts people.max
+
+puts coin_flips.count("tails")
+
+artist.delete("Crystal Method")
+puts artist
+
+cities[:Toronto] = 3000000
+puts cities
