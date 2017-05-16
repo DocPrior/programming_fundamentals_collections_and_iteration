@@ -82,3 +82,28 @@ puts artist
 
 cities[:Toronto] = 3000000
 puts cities
+
+#Exercise 5
+total = 0
+cities.each_value do |pop|
+  total += pop
+end
+puts total
+
+friends.each do |name, age|
+  if age < 30
+    puts "#{name} is young"
+  else
+    puts "#{name} is old"
+  end
+end
+
+print fav_colours.last(2)
+
+people.map! do |age|
+  age += 1
+end
+print people
+
+fav_colours.push("yellow", "black")
+print fav_colours
