@@ -170,3 +170,11 @@ puts nums.sort
 nonisland_contryies = ["France", "Canada"]
 
 print nonisland_contryies, countries
+
+#Exercise 7
+
+fav_colours = ["red", "purple", "green"]
+artist =  ["noisuf x",  "crystal Method", "juno reactor"]
+
+colour_artists = fav_colours.concat(artist)
+puts colour_artists.sort
