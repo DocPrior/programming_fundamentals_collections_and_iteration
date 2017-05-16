@@ -107,3 +107,29 @@ print people
 
 fav_colours.push("yellow", "black")
 print fav_colours
+
+#Exercise 6 part 1
+ten_year_movies = {
+  1999 => ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
+  2009 => ["Avatar", "Star Trek", "District 9"],
+  2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"]
+}
+
+phone_pad = [[1, 2, 3], [4, 5, 6], [7, 8, 9], ["*", 0, "#"]]
+
+countries =  [{
+    name: "UK",
+    continent: "Europe",
+    island: "yes"
+  },
+  {
+    name: "Canada",
+    continent: "North America",
+    island: "no"
+  },
+  {
+  name: "France",
+  content: "Europe",
+  island: "no"
+  }
+]
