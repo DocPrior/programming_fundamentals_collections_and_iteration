@@ -56,5 +56,14 @@ end
 
 
 #Exercise 3
+puts artist[0]
+puts artist[1]
 
-puts artist[1,0]
+fav_movies.each do |movie, year|
+  puts "#{movie} came out in #{year}."
+end
+
+print people.sort.reverse!
+
+fav_movies["Beauty and the Beast"] = [1991, 2017]
+puts fav_movies
