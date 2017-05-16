@@ -133,3 +133,40 @@ countries =  [{
   island: "no"
   }
 ]
+
+20.times do
+  puts "I will not skateboard in the halls"
+end
+
+will_not = []
+
+20.times do
+  will_not.push("I will not skateboard in the halls")
+end
+print will_not
+
+nums = []
+
+50.times do |num|
+  nums.push(num += 1)
+end
+
+sum = 0
+nums.each do |num|
+  sum += num
+end
+puts sum
+
+nums = []
+
+50.times do |num|
+  num += 1
+  3.times do |n|
+    nums.push(num)
+  end
+end
+puts nums.sort
+
+nonisland_contryies = ["France", "Canada"]
+
+print nonisland_contryies, countries
