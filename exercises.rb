@@ -50,6 +50,11 @@ puts coin_flips
 
 cities[:Toronto]
 
-puts "I think #{artist[0]} is great."
-puts "I think #{artist[1]} is great."
-puts "I think #{artist[2]} is great."
+artist.each do |artist|
+  puts "I think #{artist} is great."
+end
+
+
+#Exercise 3
+
+puts artist[1,0]
