@@ -27,12 +27,29 @@ friends = {
   William: 27
 }
 
+#Exercise 1
 puts coin_flips
 
 puts fav_colours[0]
 
 puts people.sort
 
-puts people.push(0)
+people.push(0)
+puts people
 
 puts fav_movies["Star Wars"]
+
+#Exercise 2
+puts fav_colours.last
+
+cities[:Calgary] = 1239220
+puts cities
+
+coin_flips.reverse!
+puts coin_flips
+
+cities[:Toronto]
+
+puts "I think #{artist[0]} is great."
+puts "I think #{artist[1]} is great."
+puts "I think #{artist[2]} is great."
