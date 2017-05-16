@@ -33,6 +33,6 @@ puts fav_colours[0]
 
 puts people.sort
 
-people.push(0)
+puts people.push(0)
 
 puts fav_movies["Star Wars"]
