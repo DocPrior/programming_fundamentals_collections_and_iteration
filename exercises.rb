@@ -184,3 +184,12 @@ artist.each do |a|
     puts "I <3 #{a} #{p}."
   end
 end
+
+people = [29, 32, 27]
+
+ages = []
+people.map do |a|
+  a += 1
+ages.push(a)
+print ages
+end
