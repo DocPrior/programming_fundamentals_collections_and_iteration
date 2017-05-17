@@ -191,5 +191,5 @@ ages = []
 people.map do |a|
   a += 1
 ages.push(a)
-print ages
 end
+print ages
