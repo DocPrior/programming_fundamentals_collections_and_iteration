@@ -193,3 +193,7 @@ people.map do |a|
 ages.push(a)
 end
 print ages
+
+
+
+puts "total of #{ages.reduce(0, :+)} years"
