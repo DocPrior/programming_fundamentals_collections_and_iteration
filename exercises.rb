@@ -194,6 +194,10 @@ ages.push(a)
 end
 print ages
 
-
-
 puts "total of #{ages.reduce(0, :+)} years"
+
+
+heads = coin_flips.select do |head|
+  head.eql?("heads")
+end
+puts heads
